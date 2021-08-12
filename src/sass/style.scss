@@ -6,8 +6,19 @@
     max-width: 950px;
     margin: 0 auto;
 }
+
+.container-flex {
+    display: flex;
+    flex-direction: column;    
+    max-width: 950px;
+    margin: 0 auto;
+
+
+}
+
 @import 'blocks/promo';
 @import 'blocks/header.scss';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
 @import 'blocks/titles';
+@import 'blocks/benefits';
