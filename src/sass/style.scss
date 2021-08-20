@@ -1,28 +1,8 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
 * {
-    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-.grid-container {
-    width: 1140px;
-    margin: 82px auto 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 240px);
-    grid-template-rows: repeat(2, 260px);
-    grid-auto-rows: 260px;
-    gap: 60px;
-}
-
-.news-item {
-    &__img {
-        width: 100%;
-    }
-    &__descr {
-        margin-top: 15px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-    }
 }
