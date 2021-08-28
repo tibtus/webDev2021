@@ -24,7 +24,7 @@
         }
         &:hover {
             transform: scale(1.20);
-            filter: drop-shadow(2px 3px 5px black);
+            filter: drop-shadow(2px 3px 5px $font-color);
             filter: saturate(150%)
             
         }

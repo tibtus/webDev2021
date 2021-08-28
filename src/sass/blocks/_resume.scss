@@ -34,7 +34,7 @@
                     position: absolute;
                     top: -16px;
                     left: 0;
-                    background-color:#000;
+                    background-color:$font-color;
 
                 }
             }
@@ -49,7 +49,7 @@
             height: 1px;
             width: 45px;
             position: absolute;
-            background-color: #000;
+            background-color: $font-color;
         }
         &-head {
             position: relative;

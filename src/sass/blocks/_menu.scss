@@ -12,7 +12,7 @@
         display: block;
         width: 30px;
         height: 3px;
-        background: #151812;
+        background: $font-color;
     }
     span.long {
         width: 36px;
@@ -51,6 +51,7 @@
         top: 25px;
         right: 25px;
         cursor: pointer;
+        
     }
     &__list {
         list-style-type: none;
@@ -71,7 +72,7 @@
             width: 15px;
             height: 15px;
             border-radius: 100%;
-            border: 1px solid #000;
+            border: 1px solid $font-color;
             transition: all 0.8s;            
         }
         &:hover {
