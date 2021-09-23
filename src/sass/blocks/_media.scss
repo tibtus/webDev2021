@@ -241,6 +241,7 @@
     .about-me {
         &__wrapper {
             grid-template: 340px auto auto / 1fr;
+           
         }
         &__skills {
             grid-template-columns: 1fr;
@@ -264,7 +265,8 @@
             grid-template-columns: repeat(auto-fit, 295px);
         }
     }
-    .contacts {
+    .contacts {    
+        
         padding-bottom: 50px;
         &__form {
             grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;
